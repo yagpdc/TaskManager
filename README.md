@@ -3,7 +3,7 @@
 O Gerenciador de Tarefas é um projeto simples que permite organizar tarefas usando tecnologias web básicas, como HTML, CSS e JavaScript. O aplicativo oferece recursos para criar, visualizar e gerenciar tarefas. Além disso, possui um modo escuro para melhorar a experiência do usuário em ambientes com pouca luminosidade.
 
 ## Versao de teste do projeto 
-<a href="https://task-manager-ten-peach.vercel.app/">VERSAO DEMO</a>
+<a href="https://task-manager-ten-peach.vercel.app/" target="_blank">VERSAO DEMO</a>
 
 ## Funcionalidades
 
