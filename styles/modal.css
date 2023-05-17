@@ -1,0 +1,118 @@
+#modal {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 65vh;
+  width: 38vw;
+  background-color: #fff;
+  padding: 1.2rem;
+  border-radius: 1rem;
+  z-index: 10;
+}
+
+#modal-conteudo {
+  padding: 15px;
+}
+
+.tarefa-input,
+.descricao-input {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+.tarefa-input > input {
+  width: 100%;
+  height: 45px;
+  background: #edeef0;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  outline: none;
+}
+
+.descricao-input > textarea {
+  width: 100%;
+  height: 45px;
+  background: #edeef0;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  outline: none;
+  height: 100px;
+  overflow-wrap: break-word;
+}
+
+.submit {
+  align-self: center;
+  color: #fff;
+  margin: 23px;
+  background: #318ac9;
+  border: none;
+  width: 90%;
+  outline: none;
+  padding: 10px;
+  font-size: 15px;
+  font-family: "Itim", cursive;
+  border-radius: 20px;
+}
+
+#close-modal {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 0.5rem;
+  margin-right: 2rem;
+  padding: 1rem;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  outline: none;
+}
+
+.titulo-modal {
+  font-family: "Itim", cursive;
+  font-weight: 300;
+  position: absolute;
+  top: 0;
+  left: 35%;
+  color: #318ac9;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-bottom: 2px solid #318ac9;
+}
+
+h2 {
+  margin-left: 20px;
+  font-size: 15px;
+  font-family: "Itim", cursive;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+#titulo-modal-container {
+  margin-bottom: 60px;
+}
+
+#fade {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 5;
+}
+
+#modal.hide,
+#fade.hide {
+  opacity: 0;
+  pointer-events: none;
+}

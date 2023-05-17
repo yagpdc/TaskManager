@@ -1,0 +1,100 @@
+
+
+
+.lampada-on  {
+    fill: yellow;
+}
+
+
+
+#lampada:hover {
+    cursor: pointer;
+}
+
+body {
+    background-color: #eeeeee;
+    transition: background-color 0.3s ease;
+    transition: color 0.5 ease;
+    transition: fill 0.5 ease;
+  }
+  
+  #board-container {
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  body.dark-mode {
+    background-color: #222222;
+  }
+  
+  body.dark-mode #board-container {
+    background-color: #2c2c2c;
+  }
+
+  body.dark-mode .title-card{
+    color: #fff;
+  }
+
+  body.dark-mode .card {
+      background-color: #343232;
+  }
+
+  #open-modal svg {
+    stroke: #216ed8;
+  }
+
+  body.dark-mode #open-modal svg {
+    stroke: #fff;
+  }
+
+  body.dark-mode .tarefas-container{
+    background-color: #915393;
+    color: #000000;
+    
+  }
+  body.dark-mode .tarefa-estilizada{
+    color: #eee;
+    
+  }
+
+  body.dark-mode nav {
+    background: #123f73;
+  }
+
+  body.dark-mode .lampada-on {
+    fill: #fff;
+  }
+  
+  body.dark-mode footer {
+    background-color: #123f73;
+    color: #fff;
+  }
+
+body.dark-mode .riscado {
+    text-decoration-color: #000000;
+}
+
+body.dark-mode #modal {
+    background-color: #343232;
+}
+
+body.dark-mode #modal h2 {
+    color: #fff;
+}
+
+body.dark-mode .titulo-modal {
+    color: #fff;
+    border-bottom: 2px solid #fff
+}
+
+body.dark-mode .submit {
+    background-color: #915393;
+}
+
+#close-modal svg {
+    fill: #216ed8;
+}
+
+body.dark-mode #close-modal svg {
+    fill: #fff;
+}
